@@ -12,3 +12,9 @@ Tools -> Build System
 + Change the build system
 
 + save into the build directory
+
+### Reference
+
++ http://sublimetext.info/docs/en/reference/build_systems.html
+
+

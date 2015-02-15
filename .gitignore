@@ -1,8 +1,8 @@
 # Temporary File
+test.sublime-workspace
 *.~gm
 *.~*
 *.~
-test.sublime-workspace.sublime-workspace
 *.log
 *.lst
 *.lxi

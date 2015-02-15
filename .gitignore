@@ -2,7 +2,7 @@
 *.~gm
 *.~*
 *.~
-*.sublime-workspace
+test.sublime-workspace.sublime-workspace
 *.log
 *.lst
 *.lxi

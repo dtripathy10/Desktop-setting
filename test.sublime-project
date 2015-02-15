@@ -1,8 +1,42 @@
 {
 	"folders":
 	[
-		{
-			"path": "/C/Users/dtripathy/Downloads/Project"
+		{	"folder_exclude_patterns":
+			["bin1"],
+			"file_exclude_patterns": ["test.sublime-workspace","*.gitignore"],
+			"path": "/C/Users/dtripathy/Downloads/Project/Desktop-setting"
 		}
-	]
+	],
+
+	"build_systems":
+    [
+      {
+        "name": "Do",
+  			"cmd": ["bin\\init.bat"],
+  			"working_dir": "$project_path"
+      },
+      {
+        "name": "Init",
+        "cmd": ["bin\\starter.bat"],
+        "working_dir": "$project_path"
+      }
+    ],
+
+    "settings": {
+  		"color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
+  		"font_face": "Courier New",
+  		"font_size": 12,
+  		"line_padding_bottom": 5,
+  		"line_padding_top": 5,
+  		"rulers":
+  		[
+  			100
+  		],
+  		"soda_classic_tabs": true,
+  		"soda_folder_icons": true,
+  		"tab_size": 2,
+  		"translate_tabs_to_spaces": true,
+  		"theme": "Soda Light 3.sublime-theme"
+      //"theme": "Soda Light.sublime-theme"
+	}
 }
